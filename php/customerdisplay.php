@@ -69,7 +69,7 @@
                     $dbc = null;
                     ?>
                     <div align="center">
-                        <a href="../html/orders.html">
+                        <a href="../html/newcustomer.html">
                             <br>
                             <br>
                             <button>Back</button>
