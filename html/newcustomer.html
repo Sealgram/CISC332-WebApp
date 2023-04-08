@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CISC 332 Web App- Liam Seagram- New Customer</title>
+        <link href="../css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../restaurant.html">Restaurant</a></li>
+                    <li><a href="orders.html">List All Orders on a Date</a></li>
+                    <li><a href="newcustomer.html">Add New Customer</a></li>
+                    <li><a href="../php/orderdates.php">Show Orders on Dates</a></li>
+                    <li><a href="employeeschedule.html">Show Employee Schedule</a></li>
+                </ul>
+            </nav>    
+        </header>
+        <main>
+            <section id="newcustomer">
+                <form action="../php/newcustomer.php" method="post">
+                    <h2>Add a New Customer</h2>
+                    <p>Enter Customer Email:</p>
+                    <input type="text" placeholder="e.g. jane.doe@gmail.com" name="inputEmail">
+                    <br>
+                    <p>Enter Customer's First Name:</p>
+                    <input type="text" placeholder="e.g Jane" name="inputFName">
+                    <br>
+                    <p>Enter Customer's Middle Initial:</p>
+                    <input type="text" placeholder="e.g C" name="inputMInitial">
+                    <br>
+                    <p>Enter Customer's Last Name:</p>
+                    <input type="text" placeholder="e.g Doe" name="inputLName">
+                    <br>
+                    <p>Enter Customer Address:</p>
+                    <input type="text" placeholder="e.g. 1 Main St, Toronto, ON" name="inputAddress">
+                    <br>
+                    <p>Enter Customer Phone Number:</p>
+                    <input type="text" placeholder="e.g. 4169671111" name="inputPhoneNum">
+                    <br>
+                    <p>Enter Customer Restaurant:</p>
+                    <input type="text" placeholder="e.g. Steak Supreme" name="inputRestaurant">
+                    <br>
+                    <br>
+                    <input type="submit" value="Input">
+                </form>
+            </section>
+            <section id="customerdisplay">
+                <form action="../php/customerdisplay.php" method="post">
+                    <h2>Display All Customers</h2>
+                    <br>
+                    <br>
+                    <input type="submit" value="Go">
+                </form>
+            </section>
+        </main>
+        <footer>
+            CISC 332 Databases Web Application Assignment, <br>Liam Seagram, 20205234
+        </footer>
+    </body>
+</html>

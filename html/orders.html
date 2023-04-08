@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CISC 332 Web App- Liam Seagram- Orders</title>
+        <link href="../css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../restaurant.html">Restaurant</a></li>
+                    <li><a href="orders.html">List All Orders on a Date</a></li>
+                    <li><a href="newcustomer.html">Add New Customer</a></li>
+                    <li><a href="../php/orderdates.php">Show Orders on Dates</a></li>
+                    <li><a href="employeeschedule.html">Show Employee Schedule</a></li>
+                </ul>
+            </nav>    
+        </header>
+        <main>
+            <section id="orders">
+                <form action="../php/orders.php" method="post">
+                    <h2>List All Orders on a Date</h2>
+                    <p>Enter Date:</p>
+                    <input type="text" placeholder="e.g. 2022-05-09" name="inputDate">
+                    <br>
+                    <br>
+                    <input type="submit" value="View">
+                </form>
+            </section>
+        </main>
+        <footer>
+            CISC 332 Databases Web Application Assignment, <br>Liam Seagram, 20205234
+        </footer>
+    </body>
+</html>
